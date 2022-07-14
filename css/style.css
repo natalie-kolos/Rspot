@@ -25,6 +25,8 @@
   color: #262626;
   padding: 30px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-wide__body {
@@ -60,6 +62,7 @@
   height: auto;
   text-align: center;
   padding: 6px 22px;
+  margin-top: auto;
 }
 
 .membership-card ul li {
