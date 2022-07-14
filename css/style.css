@@ -1,0 +1,107 @@
+.hero-wide {
+  background-image: url(..//img/join-bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+
+.hero-wide #header {
+  margin-bottom: 56px;
+}
+
+.hero-wide__description {
+  color: #fff;
+}
+
+.hero-wide__description h1,
+.hero-wide__description h2 {
+  color: #fff;
+}
+
+.membership-card {
+  background-color: #fff;
+  box-shadow: 0px 44px 74px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  color: #262626;
+  padding: 30px;
+  height: 100%;
+}
+
+.hero-wide__body {
+  background-color: #fff;
+}
+
+/* Matchmaking Plus Membership */
+.membership-card h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.membership-card_price {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.membership-card__header {
+  text-align: center;
+}
+
+.membership-card__header .muted {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #838383;
+}
+
+.membership-card .button {
+  display: block;
+  height: auto;
+  text-align: center;
+  padding: 6px 22px;
+}
+
+.membership-card ul li {
+}
+.membership-card ul {
+  list-style: none;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  margin-left: 10px;
+}
+
+.membership-card ul li {
+  list-style-image: none;
+  padding-left: 8px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.membership-card li:before {
+  content: url(../img/check.svg);
+  position: absolute;
+  left: -24px;
+}
+
+.btn-tooltip {
+  background: transparent;
+  border: 0;
+  color: #262626;
+  font-weight: 600;
+}
+
+.btn-tooltip span {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #262626;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.tooltip-inner {
+  background-color: #ffffff !important;
+  /*!important is not necessary if you place custom.css at the end of your css calls. For the purpose of this demo, it seems to be required in SO snippet*/
+  color: #262626 !important;
+  opacity: 1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
