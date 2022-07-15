@@ -11,6 +11,7 @@
 
 .hero-wide__description {
   color: #fff;
+  margin-bottom: 40px;
 }
 
 .hero-wide__description h1,
@@ -107,4 +108,27 @@
   color: #262626 !important;
   opacity: 1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.cta {
+  padding: 56px 0px;
+  background: linear-gradient(
+    88.76deg,
+    #a21529 0%,
+    #a4375b 31.5%,
+    #ae489b 100%
+  );
+}
+
+.cta-description {
+  color: #fff;
+}
+
+.cta-description h2 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.btn-white {
+  background-color: #fff !important;
+  color: #ae489b !important;
 }
